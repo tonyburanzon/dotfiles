@@ -1,0 +1,9 @@
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+#alias vim="~/.bin/nvim/bin/nvim"
+
+alias sbsftp="sftp xkfphqmy@50.87.178.63"
+
+alias vim="nvim"
