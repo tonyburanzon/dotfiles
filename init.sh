@@ -10,8 +10,12 @@ fi
 
 cp -r bin ~/.local
 
-if [ ! -f "/.config" ]; then
+if [ ! -d "/.config" ]; then
   mkdir ~/.config
 fi
 
-cp -r nvim ~/.config
+if [[ ! -d "./config/i3" ]]; then
+  mkdir ~/.config/i3
+fi
+
+cp -r nvim i3 ~/.config
