@@ -18,4 +18,5 @@ if [[ ! -d ~/.config/i3 ]]; then
   mkdir ~/.config/i3
 fi
 
-cp -r nvim i3 ~/.config
+cp -r nvim i3 alacritty ghostty ~/.config
+
