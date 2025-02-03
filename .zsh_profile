@@ -1,3 +1,8 @@
 set -o vi
 
 bindkey -s ^f "tmux-sessionizer\n"
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+if [[ -o login ]]; then
+  neofetch
+fi
